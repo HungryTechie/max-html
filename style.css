@@ -1,52 +1,94 @@
 .header{
-background-repeat: no-repeat;		background-image:url(https://zaidynes.files.wordpress.com/2016/09/league-of-legends-art14.jpg?w=1200);
+	background-repeat: repeat;
+	background-image:url(https://zaidynes.files.wordpress.com/2016/09/league-of-legends-art14.jpg?w=1200);
 	height:900px;
 	background-position: center center;
 }
-.lefttext{
-	
+.spacer{
+	padding-top:25px;
+	padding-bottom:25px;
+	text-align:center;
 }
-.righttext{
-	background-position: center-right;
-}
-.center{
-	background-position:center;
-	margin: 50px;
-	height: ;
-	}
 .lanemap{
 	background-image: url(https://4.bp.blogspot.com/-B9e0D2qUeG8/UK0SWAEMtDI/AAAAAAAAAGA/_V2cRGVVXYY/s426/196051_3149719432962_66192221_n.jpg);
 	height:426px;
 	width:426px;
-	background-position:center-left;
+	float: right;
+	margin: 0 0 15px 15px;
+	box-shadow: 10px 10px 5px rgba( 83, 83, 83, .9);
+}
+/*Laner Headers*/
+.adc{
+	background-image: url(http://66.media.tumblr.com/beaac6e885c59ace4b3aae63315bfeaa/tumblr_n9t4c5z7mO1rkkvqeo4_400.png);
+}
+.supp{
+	background-image: url(http://pm1.narvii.com/5759/80efa04ef4c18a96f5733008eb4a93537fca2064_hq.jpg);
+}
+.top{
+	background-image: url(http://pm1.narvii.com/5759/7c94f1b0eb1f6409ddf30b8313acb1f66921d95b_hq.jpg);
+}
+.mid{
+	background-image: url(http://68.media.tumblr.com/5fc404850e1b6b54ab6e9ea4c16fca65/tumblr_n9t4c5z7mO1rkkvqeo3_400.png);
+}
+.jung{
+	background-image: url(http://67.media.tumblr.com/12d85d479dbacbd4a386ee9ea18318d8/tumblr_n9t4c5z7mO1rkkvqeo1_400.png);
+}
+.jungtank{
+	background-image: url(http://65.media.tumblr.com/4147f208d6f99ea3e779d911a46f5dfd/tumblr_n9t4c5z7mO1rkkvqeo6_400.png);
+}
+.jungtank, .jung, .mid, .top, .supp, .adc{
+	background-repeat: repeat;
+	box-shadow: 10px 10px 5px rgba( 83, 83, 83, .9);
+	height: 256px;
+	background-position: center;
 }
 body {
-		padding: 0;
-		margin: 30;
+		padding: 30px;
+		margin: 30px;
 		background: linear-gradient(180deg, #7CCCA3 0%, #B7F2C3 75%);
+}
+p, a, ul, li, ol {
+	font-family:'Trebuchet Ms','Microsoft Sans Serif', 'Yu Gothic Medium', 'Arial', sans-serif;
+	font-size: 18px;
+	color: rgba(89,67,41,1);
 }
 h1 {
 	color: #F2E4B7;
 	font-family:'Adobe Mind Std L', 'Adobe Devnagari', 'Minion Pro Med', 'Times New Roman', serif;
 	position: relative;
 	text-align: center;
-	font-size: 100px;
+	font-size: 90px;
 	line-height:100px;
 	top:50%;
 }
-h2 {
-	
+h3 {
+	color:white;
+	top:75%;
+	text-align:center;
+	font-size: 45px;
+}
+h2{
+	font-size: 70px;
+	color:white;
+	top:75%;
+	position: center;
+	text-align: center;
 }
 p {
 	color: rgba(89,67,41,1);
 	font-family:'Trebuchet Ms','Microsoft Sans Serif', 'Yu Gothic Medium', 'Arial', sans-serif;
+	padding: 30px;
 }
 a {
 	color: rgba(89,90,41,1);
 }
-.spacer{
-	padding-top: 150px;
-	padding-bottom: 150px;
-	padding-left: 300px;
-	padding-right: 300px;
+.zac{
+	background-image:url(http://res.cloudinary.com/lmn/image/upload/c_limit,e_sharpen:150,f_auto,fl_lossy,h_360,q_80,w_640/v1/gameskinny/618c805a963f85605bcd930df012fe0e.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	margin: 50;
+	height: 184;
+	width: 736;
+	box-shadow: 10px 10px 5px rgba( 83, 83, 83, .9);
+	border: 1px solid green;
 }
